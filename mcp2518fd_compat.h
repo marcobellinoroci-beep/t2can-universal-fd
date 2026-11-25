@@ -1,7 +1,6 @@
 #pragma once
-// T2CAN FD compatibility shim
-// Provides an MCP2515-like API on top of Longan_CANFD (mcp2518fd)
-// so the rest of the T2CAN Universal firmware can run on LilyGO T-2CAN FD
+// T2CAN FD compatibility shim for LilyGO T-2CAN FD (MCP2518FD)
+// Drop-in replacement for the original MCP2515 API used by T2CAN Universal.
 
 #include <Arduino.h>
 #include <SPI.h>
